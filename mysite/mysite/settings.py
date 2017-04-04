@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig', #"To include the app in our project, we need to add a reference to its configuration class in the INSTALLED_APPS setting."
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
